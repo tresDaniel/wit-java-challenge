@@ -16,4 +16,8 @@
     	<version>${project.version}</version>
   	</dependency>
   </dependencies>
+  
+  	<build>
+		<finalName>wit-java-challenge-docker</finalName>
+	</build>
 </project>

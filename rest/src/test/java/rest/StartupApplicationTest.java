@@ -5,11 +5,11 @@ import org.junit.jupiter.api.Test;
 
 import com.daniel.wit.StartupApplication;
 
-public class StartupApplicationTest {
+class StartupApplicationTest {
 
 	@Test
 	@DisplayName("Startup application")
-	public void main() {
+	void main() {
 		StartupApplication.main(new String[] {});
 	}
 }

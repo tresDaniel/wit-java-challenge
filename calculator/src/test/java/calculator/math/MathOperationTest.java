@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
 
 import com.daniel.wit.math.MathOperation;
 
-public class MathOperationTest {
+class MathOperationTest {
 	
 	MathOperation math;
 	BigDecimal TEN;
@@ -24,25 +24,25 @@ public class MathOperationTest {
 	
 	@Test
 	@DisplayName("Simple sum should work")
-	public void sum() {
+	void sum() {
 		assertEquals(TEN, math.sum(new BigDecimal(5), new BigDecimal(5)));
 	}
 	
 	@Test
 	@DisplayName("Simple subtraction should work")
-	public void subtract() {
+	void subtract() {
 		assertEquals(TEN, math.subtract(new BigDecimal(15), new BigDecimal(5)));
 	}
 	
 	@Test
 	@DisplayName("Simple multiplication should work")
-	public void multiply() {
+	void multiply() {
 		assertEquals(TEN, math.multiply(new BigDecimal(2), new BigDecimal(5)));
 	}
 	
 	@Test
 	@DisplayName("Simple division should work")
-	public void divide() {
+	void divide() {
 		assertEquals(TEN, math.divide(new BigDecimal(50), new BigDecimal(5)));
 	}
 
