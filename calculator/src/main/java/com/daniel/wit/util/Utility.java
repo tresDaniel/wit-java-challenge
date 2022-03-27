@@ -5,6 +5,8 @@ import java.math.BigDecimal;
 public class Utility {
 	public static final BigDecimal ZERO = new BigDecimal(0);
 	
+	private Utility() {}
+	
 	public static BigDecimal convertToBigDecimal(String strNumber) {
 		if(strNumber == null) return ZERO;
 		String number = strNumber.replaceAll(",", ".");

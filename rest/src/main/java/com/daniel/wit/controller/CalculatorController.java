@@ -27,7 +27,7 @@ public class CalculatorController {
 		return sum;
 	}
 	
-	@RequestMapping(value="/subtraction", method=RequestMethod.GET)
+	@RequestMapping(value="/subtract", method=RequestMethod.GET)
 	public BigDecimal subtract(@RequestParam("a") String a, @RequestParam("b") String b) throws Exception {
 		if(!Utility.isNumeric(a) || !Utility.isNumeric(b)) {
 			throw new UnsupportedMathOperationException("You need to set a numeric vale.");
