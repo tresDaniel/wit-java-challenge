@@ -1,6 +1,6 @@
 version: '3.1'
 services:
   API:
-    image: 'wit-java-challenge-docker.jar'
+    image: 'rest-wit-java-challenge-docker.jar'
     ports:
       - "8080:8080"
