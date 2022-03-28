@@ -3,8 +3,8 @@ This is a Maven Java project built for a challenge proposed by WIT Software. It 
 
 ## Installation
 ### Pre-requisites
-JDK Installed
-Docker Installed
+- JDK Installed
+- Docker Installed
 
 ### Installing RabbitMQ
 ```bash
@@ -16,7 +16,7 @@ Access the RabbitMQ Management page at
 ```bash
 http://localhost:15672
 ```
-with <b>guest</b> as the <b>username</b> and <b>password</b>.
+with **guest** as the **username** and **password**.
 
 Then create the queue named as <b>operations</b>.
 
