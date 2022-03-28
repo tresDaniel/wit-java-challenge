@@ -4,3 +4,8 @@ services:
     image: 'rest-wit-java-challenge-docker.jar'
     ports:
       - "8080:8080"
+  rabbitmq:
+    image: rabbitmq:management
+    ports:
+      - "5672:5672"
+      - "15672:15672"

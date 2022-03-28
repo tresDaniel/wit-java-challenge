@@ -17,7 +17,7 @@
 		<java.version>11</java.version>
 	</properties>
   
-  <dependencies>
+  	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-rest</artifactId>
@@ -29,13 +29,25 @@
 			<scope>test</scope>
 		</dependency>
 		
-  	<dependency>
-		<groupId>com.daniel.wit.rest.api</groupId>
-   	 	<artifactId>calculator</artifactId>
-    	<version>0.0.1-SNAPSHOT</version>
-    	<scope>compile</scope>
-  	</dependency>
-  </dependencies>
+  		<dependency>
+			<groupId>com.daniel.wit.rest.api</groupId>
+	   	 	<artifactId>calculator</artifactId>
+	    	<version>0.0.1-SNAPSHOT</version>
+	    	<scope>compile</scope>
+  		</dependency>
+  		
+  		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-amqp</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.amqp</groupId>
+			<artifactId>spring-rabbit-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		
+  	</dependencies>
   
   	<build>
 		<plugins>
