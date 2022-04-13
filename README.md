@@ -8,7 +8,7 @@ This is a Maven Java project built for a challenge proposed by WIT Software. It 
 
 ### Installing RabbitMQ
 ```bash
-docker run -it -rm --name rabbitmq -p 5672:5672 -p 15672:15762 rabbitmq:3.9-management
+docker run -d --hostname rabbitmq --name rabbit -p 5672:5672 -p 15672:15672 rabbitmq:3-management
 ```
 
 ### Creating a queue on RabbitMQ
